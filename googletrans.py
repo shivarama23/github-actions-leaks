@@ -13,7 +13,7 @@ tqdm.pandas()
 
 '''
 # set the OpenAI API key
-openai.api_key = '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'
+openai.api_key = 'sk-zfw8smjtR5FmoKvIk0T3BlbkFJtRU3snB5NxlirySzpkcR'
 
 # define the function to translate the input sentence
 def translate_to_hindi(input_sentence):
@@ -48,7 +48,7 @@ print("The translated sentence is:", translated_sentence)
 debug = False
 error_count = 0
 def translate_text(text: str) -> dict:
-    """Translates text into the target language.
+    """Translates text into the target language. i.e. hindi
 
     Target must be an ISO 639-1 language code.
     See https://g.co/cloud/translate/v2/translate-reference#supported_languages
